@@ -1,10 +1,10 @@
 require 'spec_helper'
 require './stop_spinning'
 
-Rspec.describe 'spinWords' do
+RSpec.describe 'spinWords' do
   context 'for less then 5 letters' do
     let(:sample) { 'stri' }
-    let(:sample_with_space) { "stri stri"}
+    let(:sample_with_space) { 'stri stri' }
 
     it 'returns same string' do
       expect(spinWords(sample)).to eq sample
