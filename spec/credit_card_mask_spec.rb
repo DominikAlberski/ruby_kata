@@ -1,5 +1,5 @@
 require 'spec_helper'
-require './credit_card_mask'
+require './katas/credit_card_mask'
 
 RSpec.describe "maskify" do
  it 'do not change string shorter then 5 characters' do

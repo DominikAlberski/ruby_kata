@@ -1,5 +1,5 @@
 require 'spec_helper'
-require './stop_spinning'
+require './katas/stop_spinning'
 
 RSpec.describe 'spinWords' do
   context 'for less then 5 letters' do

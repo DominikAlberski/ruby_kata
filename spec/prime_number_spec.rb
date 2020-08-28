@@ -1,5 +1,5 @@
 require "spec_helper"
-require "./prime_number"
+require "./katas/prime_number"
 
 RSpec.describe "isPrime" do
   it "returns false for numbers below 1" do
